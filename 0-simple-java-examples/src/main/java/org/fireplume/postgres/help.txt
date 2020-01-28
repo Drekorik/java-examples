@@ -1,0 +1,5 @@
+-h - set host (default localhost)
+-p - set port (default 38105)
+-n - set database name (default tmp)
+-u - set username (default user)
+-p - set password (default pass)
