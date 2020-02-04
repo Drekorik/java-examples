@@ -1,7 +1,7 @@
 package org.fireplume.postgres;
 
-import org.drekorik.utils.InputStreamToString;
-import org.drekorik.utils.ResourceLoader;
+import org.fireplume.postgres.utils.InputStreamToString;
+import org.fireplume.postgres.utils.ResourceLoader;
 import ru.yandex.qatools.embed.postgresql.PostgresExecutable;
 import ru.yandex.qatools.embed.postgresql.PostgresProcess;
 import ru.yandex.qatools.embed.postgresql.PostgresStarter;
@@ -51,7 +51,7 @@ public class EmbeddedPostgres {
         final String password = parseArgs(PASS_ARG, PASS_DEFAULT, args);
 
         final PostgresConfig config = new PostgresConfig(
-                Version.V9_6_6,
+                Version.V9_6_11,
                 new AbstractPostgresConfig.Net(host, port),
 //                new AbstractPostgresConfig.Net("localhost", Network.getFreeServerPort()),
                 new AbstractPostgresConfig.Storage(dbName),

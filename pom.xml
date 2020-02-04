@@ -11,6 +11,9 @@
 
     <modules>
         <module>0-simple-java-examples</module>
+        <module>0-simple-spring-examples</module>
+        <module>1-simple-spring-app</module>
+        <module>2-simple-spring-web-app</module>
     </modules>
 
     <properties>
