@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>example</title>
+    <script type="application/javascript" rel="script" src="/static/js/jquery-3.2.1.min.js"></script>
+    <script type="application/javascript" rel="script" src="/static/js/index.js"></script>
+</head>
+<body>
+<div>
+    <label>
+        Data:
+        <input type="text" id="data">
+    </label>
+    <input type="button" id="send" value="Send data">
+</div>
+<!--/*@thymesVar id="data" type="java.lang.String"*/-->
+<div th:if="${data != null}">
+    <span th:text="${data}"></span>
+</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<!--/*@thymesVar id="user" type="java.lang.String"*/-->
+<head>
+    <meta charset="UTF-8"/>
+    <title>example</title>
+</head>
+<body>
+<th:block th:if="${user != null}">
+    <div th:text="${user}"></div>
+</th:block>
+<th:block th:if="${user == null}">
+    <div>
+        <label>Login</label><input type="text" id="username"/>
+        <label>Password</label><input type="password" id="password"/>
+        <button id="log-in">login</button>
+    </div>
+</th:block>
+<div>
+    <div>
+        <button id="connect">Connect</button>
+        <button id="disconnect" disabled="disabled">Disconnect</button>
+    </div>
+    <div>
+        <button id="connect_b">Connect broadcast</button>
+        <button id="disconnect_b" disabled="disabled">Disconnect</button>
+    </div>
+    <div>
+        <button id="push">Push notification</button>
+        <button id="push_b">Push broadcast notification</button>
+    </div>
+    <div>
+        <label>Data to send</label><input type="text" id="data"/>
+        <button id="sendData">Send</button>
+    </div>
+    <div id="conversationDiv">
+        <div id="response"></div>
+    </div>
+</div>
+</body>
+<script type="application/javascript" src="/static/js/libs/jquery-3.2.1.min.js"></script>
+<script type="application/javascript" src="/static/js/libs/sockjs.min.js"></script>
+<script type="application/javascript" src="/static/js/libs/stomp.min.js"></script>
+<script type="application/javascript" src="/static/js/index.js"></script>
+</html>

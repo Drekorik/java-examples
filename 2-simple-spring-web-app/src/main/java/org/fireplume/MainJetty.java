@@ -14,7 +14,7 @@ import org.springframework.web.servlet.DispatcherServlet;
 public class MainJetty {
     private static final int DEFAULT_PORT = 8080;
     private static final String CONTEXT_PATH = "/";
-    private static final String CONFIG_LOCATION = "org.drekorik";
+    private static final String CONFIG_LOCATION = "org.fireplume";
     private static final String MAPPING_URL = "/*";
     private static final String DEFAULT_PROFILE = "dev";
 
@@ -25,7 +25,7 @@ public class MainJetty {
     private static int getPortFromArgs(String[] args) {
         if (args.length > 0) {
             try {
-                return Integer.valueOf(args[0]);
+                return Integer.parseInt(args[0]);
             } catch (NumberFormatException ignore) {
                 return DEFAULT_PORT;
             }

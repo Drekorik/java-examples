@@ -14,6 +14,12 @@
         <module>0-simple-spring-examples</module>
         <module>1-simple-spring-app</module>
         <module>2-simple-spring-web-app</module>
+        <module>3-simple-spring-web-app-with-security</module>
+        <module>4-simple-spring-web-app-with-db</module>
+        <module>5-spring-boot-web-app-with-db-and-security</module>
+        <module>6-spring-event-listener-example</module>
+        <module>7-spring-web-scokets</module>
+        <module>js-spa-lib</module>
     </modules>
 
     <properties>
