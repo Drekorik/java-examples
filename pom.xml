@@ -20,6 +20,7 @@
         <module>6-spring-event-listener-example</module>
         <module>7-spring-web-scokets</module>
         <module>js-spa-lib</module>
+        <module>kotlin-examples</module>
     </modules>
 
     <properties>
