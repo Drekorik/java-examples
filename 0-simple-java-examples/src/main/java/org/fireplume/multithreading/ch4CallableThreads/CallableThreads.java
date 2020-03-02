@@ -1,4 +1,4 @@
-package org.fireplume.multithreading.ch4;
+package org.fireplume.multithreading.ch4CallableThreads;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;

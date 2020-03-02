@@ -1,4 +1,4 @@
-package org.fireplume.multithreading.ch1;
+package org.fireplume.multithreading.ch1Daemons;
 
 import org.fireplume.multithreading.utils.ThreadsHelper;
 
