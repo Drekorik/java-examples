@@ -1,4 +1,4 @@
-package org.fireplume.multithreading.ch2;
+package org.fireplume.multithreading.ch2ShutdownHooks;
 
 import org.fireplume.multithreading.utils.ThreadsHelper;
 

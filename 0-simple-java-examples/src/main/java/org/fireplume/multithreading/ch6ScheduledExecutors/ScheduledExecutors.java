@@ -1,4 +1,4 @@
-package org.fireplume.multithreading.ch6;
+package org.fireplume.multithreading.ch6ScheduledExecutors;
 
 import org.fireplume.multithreading.utils.ThreadsHelper;
 

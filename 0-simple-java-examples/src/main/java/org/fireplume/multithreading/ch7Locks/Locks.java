@@ -1,4 +1,4 @@
-package org.fireplume.multithreading.ch7;
+package org.fireplume.multithreading.ch7Locks;
 
 import org.fireplume.multithreading.utils.ThreadsHelper;
 
