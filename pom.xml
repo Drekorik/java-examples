@@ -21,6 +21,7 @@
         <module>7-spring-web-scokets</module>
         <module>js-spa-lib</module>
         <module>kotlin-examples</module>
+        <module>sql-examples</module>
     </modules>
 
     <properties>
